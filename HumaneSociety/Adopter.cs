@@ -1,6 +1,6 @@
 ﻿using System;
 
-abstract class Adopter
+public class Adopter
 {
     static int numOfAdopters = 0;
 
@@ -67,8 +67,8 @@ abstract class Adopter
         get { return petId; }
     }
 
-    decimal? amountPaid;
-    public decimal? AmountPaid
+    double? amountPaid;
+    public double? AmountPaid
     {
         set { amountPaid = value; }
         get { return amountPaid; }
@@ -79,4 +79,8 @@ abstract class Adopter
         id = ++numOfAdopters;
     }
 
+    public void PayAdoptionFee(double price)
+    {
+
+    }
 }

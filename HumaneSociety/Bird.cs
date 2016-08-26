@@ -4,6 +4,6 @@ public class Bird : Animal
 {
 	public Bird(string name) 
 	{
-        this.name = name;
+        this.Name = name;
 	}
 }

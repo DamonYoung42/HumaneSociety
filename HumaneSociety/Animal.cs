@@ -1,6 +1,6 @@
 ﻿using System;
 
-abstract class Animal
+public abstract class Animal
 {   
     static int numOfAnimals = 0;
 
@@ -36,15 +36,8 @@ abstract class Animal
         get { return amtFood; }
     }
 
-    //double? weight;
-    //public double? weight
-    //{
-    //    set { weight = value; }
-    //    get { return weight; }
-    //}
-
-    decimal? priceToAdopt;
-    public decimal? PriceToAdopt
+    double priceToAdopt;
+    public double PriceToAdopt
     {
         set { priceToAdopt = value; }
         get { return priceToAdopt; }

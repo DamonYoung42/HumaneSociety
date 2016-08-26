@@ -146,21 +146,8 @@
           </property>
         </ownedAttributesInternal>
         <ownedOperationsInternal>
-          <operation Id="b6a59d8b-68e2-46eb-8432-8a0d0e7b00da" name="AddAnimal" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
-            <elementDefinition Id="b5eb7f3d-adef-4204-b3ed-03d3bd84fc75" />
-            <ownedParameters>
-              <operationHasOwnedParameters>
-                <parameter Id="77435ff8-b9fa-441d-9ed2-317fb6790a89" name="string name" direction="In" isUnique="false">
-                  <elementDefinition Id="336567fd-177d-4cf9-90df-8dcece60cee4" />
-                </parameter>
-              </operationHasOwnedParameters>
-            </ownedParameters>
-          </operation>
           <operation Id="28e91fea-7509-4bf5-9040-b015993e4f68" name="Eat" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
             <elementDefinition Id="c382814a-7c6d-4c86-b8ca-b88ee4cc6f5d" />
-          </operation>
-          <operation Id="6360697a-b60d-4062-8027-c85d0042f0cf" name="GetAdopted" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
-            <elementDefinition Id="84774758-69c3-45be-a473-fca994b8f061" />
           </operation>
           <operation Id="75d7c50e-4c45-44b0-9f3a-9f25fe49e462" name="ReceiveShot" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
             <elementDefinition Id="a0a991de-5379-48c3-b1aa-2ac741cba179" />
@@ -296,6 +283,19 @@
                 </parameter>
               </operationHasOwnedParameters>
             </ownedParameters>
+          </operation>
+          <operation Id="ced702b4-cca7-4bd8-ba2e-b24d86c7ff4f" name="AddAnimal" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="09411d99-608b-4b38-ab1f-18a3e20848a7" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="8ae2b46d-598b-49ea-9a5b-4e16208f280a" name="string name" direction="In" isUnique="false">
+                  <elementDefinition Id="c9b19db9-740e-4ba2-a76b-5f78f323db36" />
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="3e9b5a49-af87-41a1-8b11-24425e520a0b" name="AddAdopter" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="ad77bc58-858f-463f-bc5e-974c588b2567" />
           </operation>
         </ownedOperationsInternal>
       </class>
@@ -482,9 +482,6 @@
           </property>
         </ownedAttributesInternal>
         <ownedOperationsInternal>
-          <operation Id="b1987a75-6dc5-464e-a42b-20ca3e92d202" name="AddAdopter" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
-            <elementDefinition Id="0336fa7b-264e-41dc-9e57-0587b43c152c" />
-          </operation>
           <operation Id="55619bf6-1d43-4fb7-b071-67694b53e42b" name="AdoptAnimal" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
             <elementDefinition Id="565f8c91-66e5-4290-a5fb-bebf6e3eaa88" />
             <ownedParameters>
@@ -494,6 +491,9 @@
                 </parameter>
               </operationHasOwnedParameters>
             </ownedParameters>
+          </operation>
+          <operation Id="cda20de8-d335-45ab-b260-939d46e0930d" name="PayAdoptionFee" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="13693bd0-cec7-48b7-a07a-a2711eb550a6" />
           </operation>
         </ownedOperationsInternal>
       </class>
