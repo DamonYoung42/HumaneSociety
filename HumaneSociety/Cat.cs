@@ -2,9 +2,9 @@
 
 public class Cat : Animal
 {
-	public Cat(string name)
+	public Cat()
 	{
-        this.Name = name;
+        
 	}
 
 }

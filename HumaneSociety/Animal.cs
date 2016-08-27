@@ -29,11 +29,11 @@ public abstract class Animal
         set { cageNumber = value; }
         get { return cageNumber; }
     }
-    int? amtFood;
-    public int? AmtFood
+    int? amountOfFood;
+    public int? AmountOfFood
     {
-        set { amtFood = value; }
-        get { return amtFood; }
+        set { amountOfFood = value; }
+        get { return amountOfFood; }
     }
 
     double priceToAdopt;

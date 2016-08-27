@@ -10,6 +10,12 @@ namespace HumaneSociety
     {
         static void Main(string[] args)
         {
+            Store store = new Store();
+
+            //store.AddAdopter();
+            store.AddAnimal();
+            Console.ReadLine();
+
         }
     }
 }

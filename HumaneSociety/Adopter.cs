@@ -21,8 +21,8 @@ public class Adopter
     string lastName;
     public string LastName
     {
-        set { firstName = value; }
-        get { return firstName; }
+        set { lastName = value; }
+        get { return lastName; }
     }
 
     string address;

@@ -1,2 +1,6 @@
 C:\Users\usf00_000\Documents\DevCodeCamp\Projects\HumaneSociety\HumaneSociety\bin\Debug\HumaneSociety.exe.config
 C:\Users\usf00_000\Documents\DevCodeCamp\Projects\HumaneSociety\HumaneSociety\obj\Debug\HumaneSociety.csprojResolveAssemblyReference.cache
+C:\Users\usf00_000\Documents\DevCodeCamp\Projects\HumaneSociety\HumaneSociety\bin\Debug\HumaneSociety.exe
+C:\Users\usf00_000\Documents\DevCodeCamp\Projects\HumaneSociety\HumaneSociety\bin\Debug\HumaneSociety.pdb
+C:\Users\usf00_000\Documents\DevCodeCamp\Projects\HumaneSociety\HumaneSociety\obj\Debug\HumaneSociety.exe
+C:\Users\usf00_000\Documents\DevCodeCamp\Projects\HumaneSociety\HumaneSociety\obj\Debug\HumaneSociety.pdb
